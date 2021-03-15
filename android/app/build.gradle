@@ -48,8 +48,6 @@ android {
             signingConfig signingConfigs.debug
         }
     }
-
-    flavorDimensions "default"
 }
 
 flutter {
