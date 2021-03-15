@@ -24,21 +24,21 @@ flavorizr:
     ios:
   flavors:
 
-    apple:
+    dev:
       app:
-        name: "Apple App"
+        name: "Dev App"
       android:
-        applicationId: "com.example.apple"
+        applicationId: "com.example.dev"
       ios:
-        bundleId: "com.example.apple"
+        bundleId: "com.example.dev"
 
-    banana:
+    prod:
       app:
-        name: "Banana App"
+        name: "Prod App"
       android:
-        applicationId: "com.example.banana"
+        applicationId: "com.example.prod"
       ios:
-        bundleId: "com.example.banana"
+        bundleId: "com.example.prod"
 
   instructions: [
     "assets:download",
