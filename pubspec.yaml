@@ -25,21 +25,18 @@ flavorizr:
   flavors:
 
     dev:
-      app:
       android:
         applicationId: "com.example.dev"
       ios:
         bundleId: "com.example.dev"
 
     preprod:
-      app:
       android:
         applicationId: "com.example.preprod"
       ios:
         bundleId: "com.example.preprod"
 
     prod:
-      app:
       android:
         applicationId: "com.example.prod"
       ios:
