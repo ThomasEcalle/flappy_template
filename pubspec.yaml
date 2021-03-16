@@ -32,6 +32,14 @@ flavorizr:
       ios:
         bundleId: "com.example.dev"
 
+    preprod:
+      app:
+        name: "Preprod App"
+      android:
+        applicationId: "com.example.preprod"
+      ios:
+        bundleId: "com.example.preprod"
+
     prod:
       app:
         name: "Prod App"
