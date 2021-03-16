@@ -1,5 +1,5 @@
 import 'package:flappy_template/app.dart';
-import 'package:flappy_template/core/config/config.dart';
+import 'package:flappy_template/core/core.dart';
 import 'package:flutter/cupertino.dart';
 
 void main() {

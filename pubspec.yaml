@@ -26,23 +26,15 @@ flavorizr:
 
     dev:
       app:
-        name: "Dev App"
+        name: "App-dev"
       android:
         applicationId: "com.example.dev"
       ios:
         bundleId: "com.example.dev"
 
-    preprod:
-      app:
-        name: "Preprod App"
-      android:
-        applicationId: "com.example.preprod"
-      ios:
-        bundleId: "com.example.preprod"
-
     prod:
       app:
-        name: "Prod App"
+        name: "App-prod"
       android:
         applicationId: "com.example.prod"
       ios:
