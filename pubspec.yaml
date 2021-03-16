@@ -26,7 +26,6 @@ flavorizr:
 
     dev:
       app:
-        name: "Dev App"
       android:
         applicationId: "com.example.dev"
       ios:
@@ -34,7 +33,6 @@ flavorizr:
 
     preprod:
       app:
-        name: "Preprod App"
       android:
         applicationId: "com.example.preprod"
       ios:
@@ -42,7 +40,6 @@ flavorizr:
 
     prod:
       app:
-        name: "Prod App"
       android:
         applicationId: "com.example.prod"
       ios:
@@ -54,8 +51,6 @@ flavorizr:
     "android:buildGradle",
     "android:androidManifest",
     "android:dummyAssets",
-    "flutter:flavors",
-    "flutter:targets",
     "ios:xcconfig",
     "ios:buildTargets",
     "ios:schema",
