@@ -1,8 +1,11 @@
 import 'package:flappy_template/app.dart';
-import 'package:flappy_template/flavors.dart';
+import 'package:flappy_template/core/config/config.dart';
 import 'package:flutter/cupertino.dart';
 
 void main() {
-  Flavors.appFlavor = Flavor.dev;
-  runApp(App());
+  runApp(ConfigManager(
+    apiBaseUrl: "dev_api_base_url",
+    flavor: Flavor.dev,
+    child: App(),
+  ));
 }

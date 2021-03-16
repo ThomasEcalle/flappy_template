@@ -1,3 +1,4 @@
+import 'package:flappy_template/core/config/config.dart';
 import 'package:flutter/material.dart';
 
 class TemplateHome extends StatelessWidget {
@@ -5,7 +6,12 @@ class TemplateHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("Hello from Flappy Template"),
+        child: Column(
+          children: [
+            Text("Hello from Flappy Template"),
+            Text(ConfigManager.of(context).apiBaseUrl),
+          ],
+        ),
       ),
     );
   }
